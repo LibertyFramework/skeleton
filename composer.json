@@ -1,0 +1,20 @@
+{
+  "name": "docforge/skeleton",
+  "description": "Start new project",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francesco Bianco",
+      "email": "bianco@javanile.org"
+    }
+  ],
+  "scripts": {
+    "serve": "php -S localhost:8080 -t vendor/docforge/handbook/public",
+    "build": "php vendor/bin/docforge -o docs -t vendor/docforge/handbook/public"
+  },
+  "require": {
+    "docforge/docforge": "*",
+    "docforge/handbook": "*"
+  }
+}
