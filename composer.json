@@ -14,7 +14,7 @@
     "build": "php vendor/bin/docforge -o docs -t vendor/docforge/handbook/public"
   },
   "require": {
-    "docforge/docforge": "*",
-    "docforge/handbook": "*"
+    "docforge/docforge": "dev-master",
+    "docforge/handbook": "dev-master"
   }
 }
